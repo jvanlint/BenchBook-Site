@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BenchBook — the research notebook for scale modellers</title>
-  <meta name="description" content="BenchBook is a Mac app for scale modellers. Gather photos, instructions, videos and notes for each build, mark up reference images, compare them side by side and plan your paints — all kept on your Mac.">
+  <meta name="description" content="BenchBook is a Mac app for scale modellers. Gather photos, instructions, videos and notes for each build, mark up reference images and PDF instructions, compare them side by side and plan your paints — all kept on your Mac.">
   <meta property="og:title" content="BenchBook — the research notebook for scale modellers">
   <meta property="og:description" content="Gather, mark up and compare your build research, and plan your paints. A native Mac app that keeps everything on your Mac.">
   <meta property="og:type" content="website">
@@ -23,6 +23,7 @@
     <nav class="nav-links" aria-label="Sections">
       <a href="#capture">Capture</a>
       <a href="#markup">Mark Up</a>
+      <a href="#pdf">PDFs</a>
       <a href="#paints">Paints</a>
       <a href="#privacy">Privacy</a>
     </nav>
@@ -38,7 +39,7 @@
       <img class="hero-icon" src="assets/icon.png" alt="The BenchBook app icon: a kraft notebook with a jet on the cover">
       <p class="eyebrow">For scale modellers · Made for the Mac</p>
       <h1>All your build research, in one notebook.</h1>
-      <p class="lede">BenchBook gathers the photos, instructions, videos and notes for every build. Mark up reference shots, compare them side by side, and know exactly which paints you still need to buy.</p>
+      <p class="lede">BenchBook gathers the photos, instructions, videos and notes for every build. Mark up reference shots and instructions, compare them side by side, and know exactly which paints you still need to buy.</p>
       <div class="cta">
         <a class="button primary" href="https://github.com/jvanlint/BenchBook/releases/latest">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
@@ -46,7 +47,7 @@
         </a>
         <a class="button secondary" href="https://github.com/jvanlint/BenchBook">View on GitHub</a>
       </div>
-      <p class="fineprint">Free · Requires macOS 15 or later · Signed and notarised by Apple</p>
+      <p class="fineprint">Version 1.0 · Free · Requires macOS 15 or later · Signed and notarised by Apple</p>
 
       <div class="hero-shot">
         <img class="shot" src="assets/screens/main.png" width="1419" height="950"
@@ -69,8 +70,8 @@
     </div>
     <div class="highlight">
       <div class="glyph yellow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><rect x="7" y="8" width="6" height="5" stroke-dasharray="2 2"/></svg></div>
-      <h3>Notes on the photo</h3>
-      <p>Draw a box around a detail and write what it is. The original image is never changed.</p>
+      <h3>Mark up photos and PDFs</h3>
+      <p>Box and note details on photos; add notes, highlights and arrows to instructions. Originals are never changed.</p>
     </div>
     <div class="highlight">
       <div class="glyph ink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M15 4v16"/></svg></div>
@@ -98,7 +99,7 @@
       <ul class="points">
         <li>Track each build as Researching, In Progress, Paused or Completed, and filter the sidebar by status.</li>
         <li>Keep decals, resin, photo-etch and other aftermarket parts with their status: considering, ordered, in the stash, used.</li>
-        <li>Move or copy references to another project by dragging them onto it in the sidebar.</li>
+        <li>Move or copy references to another project by dragging them onto it in the sidebar, notes and markups included.</li>
       </ul>
     </div>
     <img class="shot cropped" src="assets/screens/aftermarket.png" loading="lazy" decoding="async" width="1419" height="300"
@@ -112,7 +113,7 @@
       <h2>Save it the moment you find it.</h2>
       <p>Drag a photo from Safari, paste a link, or choose <strong>BenchBook</strong> in the Share menu. It lands in the right project with your tags and a note, and the original file is kept exactly as it was.</p>
       <ul class="points">
-        <li>Images, PDFs, Markdown, web pages, YouTube and Vimeo videos, highlighted text and your own notes.</li>
+        <li>Images, PDFs, Markdown, web pages, YouTube and Vimeo videos, text highlighted in Safari, and your own notes.</li>
         <li>Web pages get their preview image and description; videos get their poster, channel and length.</li>
         <li>A YouTube timestamp becomes a moment you can jump straight back to.</li>
         <li>Select a whole set by dragging a rectangle across the gallery, just like in Finder.</li>
@@ -138,6 +139,22 @@
          alt="The image viewer showing an F-16 main gear bay with five numbered boxes drawn on it, and their notes listed in the side panel: chipping, discolouration and a gun metal colour.">
   </section>
 
+  <!-- PDF markup -->
+  <section class="wrap feature flip" id="pdf">
+    <div class="feature-text">
+      <span class="tag">PDF markup</span>
+      <h2>Mark up the instructions, not a printout.</h2>
+      <p>Open kit instructions and painting guides in their own window, with page thumbnails, zoom and find. Add a note, highlight a step or draw an arrow to the part that matters, and give any of them a few words.</p>
+      <ul class="points">
+        <li>Every markup is numbered and listed by page beside the PDF, and searchable later.</li>
+        <li>Export a marked-up copy to print or share. Highlights and arrows with text get a numbered list at the end.</li>
+        <li>Your markups sit on top. The original PDF is never edited.</li>
+      </ul>
+    </div>
+    <img class="shot" src="assets/screens/pdf-markup.png" loading="lazy" decoding="async" width="1379" height="1139"
+         alt="The PDF viewer showing page 2 of F-16CJ kit instructions with page thumbnails, yellow highlights on two assembly steps, a note and a red arrow, and the five numbered markups listed in the side panel.">
+  </section>
+
   <!-- Compare -->
   <section class="wrap feature wide" id="compare">
     <div class="feature-text">
@@ -161,6 +178,7 @@
       <h2>Know what's on the rack and what's on the list.</h2>
       <p>Keep one catalogue of every paint you own or want, with brand, code, FS and RLM numbers. Add paints to a build with what they're for, and BenchBook works out what you still need to buy.</p>
       <ul class="points">
+        <li>List the colours from a painting guide, such as FS 36270, then choose a paint for each. Paints you own come first.</li>
         <li>A shopping list across all your builds, grouped by brand, that exports as a checklist.</li>
         <li>Filter by brand, range and what you own.</li>
         <li>Import and export the catalogue as CSV, to share it with friends.</li>
@@ -175,9 +193,9 @@
     <div class="feature-text">
       <span class="tag">Search</span>
       <h2>Find that photo you saved six months ago.</h2>
-      <p>One search covers every project: titles, notes, tags, file names, links, video descriptions, paints, parts, and the notes you drew on images. "f16" finds "F-16".</p>
+      <p>One search covers every project: titles, notes, tags, file names, links, video descriptions, paints, parts, the notes you drew on images and your PDF markups. "f16" finds "F-16".</p>
       <ul class="points">
-        <li>A match in a box note opens the image zoomed straight to that box.</li>
+        <li>A match in a box note opens the image zoomed straight to that box; a match in a PDF markup opens its page.</li>
         <li>A match in a video moment opens the video at that time.</li>
         <li>Narrow results to a tag as you type.</li>
       </ul>
@@ -224,7 +242,7 @@
       <div class="mac-grid">
         <div><b>Share menu</b><span>Send pages and images from Safari and other apps straight to a project.</span></div>
         <div><b>Quick Look</b><span>Press Space to preview any PDF, image or document.</span></div>
-        <div><b>Keyboard first</b><span>Shortcuts for capturing, zooming, drawing boxes and switching tabs.</span></div>
+        <div><b>Keyboard first</b><span>Shortcuts for capturing, zooming, drawing, finding and switching tabs.</span></div>
         <div><b>Light and dark</b><span>Follows your Mac's appearance, with its system controls and fonts.</span></div>
       </div>
     </div>

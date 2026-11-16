@@ -156,6 +156,7 @@ a:hover { text-decoration: underline; }
 .cta { display: flex; justify-content: center; gap: 12px; margin-top: 34px; flex-wrap: wrap; }
 
 .fineprint { margin-top: 14px; font-size: 14px; color: var(--ink-soft); }
+.fineprint + .fineprint { margin-top: 4px; }
 
 .hero-shot { margin-top: 64px; }
 

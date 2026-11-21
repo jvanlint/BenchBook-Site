@@ -21,6 +21,7 @@
   <div class="wrap">
     <a class="brand" href="#top"><img src="assets/icon.png" alt="">BenchBook</a>
     <nav class="nav-links" aria-label="Sections">
+      <a href="#kits">Kits</a>
       <a href="#capture">Capture</a>
       <a href="#markup">Mark Up</a>
       <a href="#pdf">PDFs</a>
@@ -52,7 +53,7 @@
         </a>
         <a class="button secondary" href="https://github.com/jvanlint/BenchBook">View on GitHub</a>
       </div>
-      <p class="fineprint">Mac: version 1.0 · Free · Requires macOS 15 or later · Signed and notarised by Apple</p>
+      <p class="fineprint">Mac: version 1.1 · Free · Requires macOS 15 or later · Signed and notarised by Apple</p>
       <p class="fineprint">Windows: preview · Free · Requires Windows 10 (version 2004) or later · Not yet signed</p>
 
       <div class="hero-shot">
@@ -67,7 +68,7 @@
     <div class="highlight">
       <div class="glyph kraft"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h11v18H6a2 2 0 0 1-2-2zM8 3v18M20 6v3M20 12v3"/></svg></div>
       <h3>A notebook per build</h3>
-      <p>References, paints and aftermarket parts for each project, with its status at a glance.</p>
+      <p>Kits, references, paints and aftermarket parts for each project, with its status at a glance.</p>
     </div>
     <div class="highlight">
       <div class="glyph blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></div>
@@ -87,7 +88,7 @@
     <div class="highlight">
       <div class="glyph red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></svg></div>
       <h3>Paints, planned</h3>
-      <p>Your whole paint rack, each build's paint list, and a shopping list of what you're missing.</p>
+      <p>Your whole paint rack and your own mixes, each build's paint list, and a shopping list of what you're missing.</p>
     </div>
     <div class="highlight">
       <div class="glyph kraft"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
@@ -101,7 +102,7 @@
     <div class="feature-text">
       <span class="tag">Projects</span>
       <h2>Every build gets its own notebook.</h2>
-      <p>Each project keeps its research, its paint list and its aftermarket parts together, so everything for the F-16 is in one place and nothing for the Spitfire gets in the way.</p>
+      <p>Each project keeps its kits, its research, its paint list and its aftermarket parts together, so everything for the F-16 is in one place and nothing for the Spitfire gets in the way.</p>
       <ul class="points">
         <li>Track each build as Researching, In Progress, Paused or Completed, and filter the sidebar by status.</li>
         <li>Keep decals, resin, photo-etch and other aftermarket parts with their status: considering, ordered, in the stash, used.</li>
@@ -110,6 +111,24 @@
     </div>
     <img class="shot cropped" src="assets/screens/aftermarket.png" loading="lazy" decoding="async" width="1419" height="300"
          alt="A project's Aftermarket tab listing FOD covers, an ALQ-131 centre-line pod and LAU rails, each resin at 1:48, with pictures and a status of Considering or In stash.">
+  </section>
+
+  <!-- Kits -->
+  <section class="wrap feature flip" id="kits">
+    <div class="feature-text">
+      <span class="tag">Kits · New in 1.1 for Mac</span>
+      <h2>Know what's in the stash.</h2>
+      <p>Keep a catalogue of every kit you own or want, one entry per box, with brand, scale, kit number, status, rating, prices and the box art. Bring in your whole Scalemates stash in one go.</p>
+      <ul class="points">
+        <li>Import a Scalemates stash export or a CSV. Importing the same file again adds nothing. Export your kits as CSV.</li>
+        <li>Mark each kit BNIB, Opened, WIP or Built. Start a build and its kits become WIP; finish it and they're Built.</li>
+        <li>Give each project its kits on its own Kits tab, or start a new project from a kit.</li>
+        <li>Kits you still need go on the shopping list, next to your paints.</li>
+        <li>Take the box art with your iPhone's camera, straight into the kit.</li>
+      </ul>
+    </div>
+    <img class="shot" src="assets/screens/kits-placeholder.svg" loading="lazy" decoding="async" width="1400" height="900"
+         alt="Placeholder for a screenshot of the Kits catalogue.">
   </section>
 
   <!-- Capture -->
@@ -182,17 +201,34 @@
     <div class="feature-text">
       <span class="tag">Paints</span>
       <h2>Know what's on the rack and what's on the list.</h2>
-      <p>Keep one catalogue of every paint you own or want, with brand, code, FS and RLM numbers. Add paints to a build with what they're for, and BenchBook works out what you still need to buy.</p>
+      <p>Keep one catalogue of every paint you own or want, with brand, code and colour standard: FS 595, RAL, RLM, BS 381C and more. Add paints to a build with what they're for, and BenchBook works out what you still need to buy.</p>
       <ul class="points">
-        <li>List the colours from a painting guide, such as FS 36270, then choose a paint for each. Paints you own come first.</li>
+        <li>List the colours from a painting guide, such as FS 36270, then choose a paint for each. Paints that match the colour's standard come first.</li>
+        <li>Note what each paint is for on a build's Paint tab.</li>
         <li>A shopping list across all your builds, grouped by brand, that exports as a checklist.</li>
-        <li>Filter by brand, range and what you own.</li>
+        <li>Filter by brand, range, type and what you own.</li>
         <li>Import and export the catalogue as CSV, to share it with friends.</li>
         <li><a href="#paint-lists">Download ready-made lists</a> for Tamiya, Mr. Hobby, AK Interactive and Vallejo.</li>
       </ul>
     </div>
     <img class="shot cropped" src="assets/screens/paints.png" loading="lazy" decoding="async" width="980" height="292"
          alt="An AH-64E project's Paint tab: four AK Interactive and Tamiya paints with swatches, FS and RAL codes and Owned ticks, and a header saying two are still to buy.">
+  </section>
+
+  <!-- Custom mixes -->
+  <section class="wrap feature" id="mixes">
+    <div class="feature-text">
+      <span class="tag">Custom mixes · New in 1.1 for Mac</span>
+      <h2>Mix it once. Write it down for good.</h2>
+      <p>Save your own mixes in the paint catalogue, with a recipe of the paints that go in and how many parts of each. Then use a mix in any build, just like a paint from the bottle.</p>
+      <ul class="points">
+        <li>Add paints from your catalogue to the recipe, set their parts, and put them in order with the arrows.</li>
+        <li>A mix counts as owned when you own every paint in it. Anything missing goes on the shopping list.</li>
+        <li>Give a mix a colour standard, so it's offered for that colour alongside bottled paints.</li>
+      </ul>
+    </div>
+    <img class="shot" src="assets/screens/mixes-placeholder.svg" loading="lazy" decoding="async" width="1400" height="900"
+         alt="Placeholder for a screenshot of a custom mix and its recipe.">
   </section>
 
   <!-- Paint lists -->

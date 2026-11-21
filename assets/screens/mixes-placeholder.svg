@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="A custom mix and its recipe">
+  <style>
+    .win { fill: #ffffff; stroke: #e6ddcf; }
+    .bar { fill: #f1eee9; }
+    .side { fill: #f6f3ee; }
+    .box { fill: none; stroke: #d4964f; stroke-width: 3; stroke-dasharray: 14 10; }
+    .t { fill: #1d1b19; font: 600 22px -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+    .big { fill: #a8682a; font: 650 44px -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+    .small { fill: #5d5750; font: 400 26px -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .win { fill: #282521; stroke: #37322c; }
+      .bar { fill: #312d28; }
+      .side { fill: #2c2924; }
+      .box { stroke: #e0a663; }
+      .t { fill: #f3eee7; }
+      .big { fill: #f0bd80; }
+      .small { fill: #b3aaa0; }
+    }
+  </style>
+  <rect class="win" x="1" y="1" width="1398" height="898" rx="18"/>
+  <path class="bar" d="M19 2h1362a17 17 0 0 1 17 17v41H2V19A17 17 0 0 1 19 2z"/>
+  <circle cx="34" cy="31" r="8" fill="#ff5f57"/><circle cx="60" cy="31" r="8" fill="#febc2e"/><circle cx="86" cy="31" r="8" fill="#28c840"/>
+  <text class="t" x="700" y="39" text-anchor="middle">Edit Mix</text>
+  <rect class="side" x="2" y="60" width="260" height="838"/>
+  <rect class="box" x="300" y="98" width="1062" height="764" rx="14"/>
+  <text class="big" x="831" y="456" text-anchor="middle">Screenshot coming soon</text>
+  <text class="small" x="831" y="502" text-anchor="middle">A custom mix and its recipe</text>
+</svg>

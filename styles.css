@@ -742,11 +742,15 @@ footer a { color: var(--ink-soft); }
   .privacy-grid { grid-template-columns: 1fr; }
 }
 
+/* The links stop fitting beside the brand and button below this width. */
+@media (max-width: 840px) {
+  .nav-links { display: none; }
+  .nav .button { margin-left: auto; }
+}
+
 @media (max-width: 640px) {
   body { font-size: 16px; }
   .wrap { padding: 0 16px; }
-  .nav-links { display: none; }
-  .nav .button { margin-left: auto; }
   .hero { padding-top: 56px; }
   .hero .lede { font-size: 18px; }
   .highlights, .mac-grid, .tutorial-grid, .paint-list-grid { grid-template-columns: 1fr; }

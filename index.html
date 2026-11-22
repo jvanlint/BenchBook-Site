@@ -23,6 +23,7 @@
     <nav class="nav-links" aria-label="Sections">
       <a href="#kits">Kits</a>
       <a href="#capture">Capture</a>
+      <a href="#safari">Safari</a>
       <a href="#markup">Mark Up</a>
       <a href="#pdf">PDFs</a>
       <a href="#paints">Paints</a>
@@ -53,11 +54,11 @@
         </a>
         <a class="button secondary" href="https://github.com/jvanlint/BenchBook">View on GitHub</a>
       </div>
-      <p class="fineprint">Mac: version 1.1 · Free · Requires macOS 15 or later · Signed and notarised by Apple</p>
+      <p class="fineprint">Mac: version 1.1.1 · Free · Requires macOS 15 or later · Signed and notarised by Apple</p>
       <p class="fineprint">Windows: preview · Free · Requires Windows 10 (version 2004) or later · Not yet signed</p>
 
       <div class="hero-shot">
-        <img class="shot" src="assets/screens/main.png" width="1419" height="950"
+        <img class="shot" src="assets/screens/main.png" width="1600" height="920"
              alt="BenchBook's main window: projects and tags in the sidebar, and an F-16CJ Wild Weasel project's references — photos, instructions, a note and a webpage — with coloured tags.">
       </div>
     </div>
@@ -73,7 +74,7 @@
     <div class="highlight">
       <div class="glyph blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></div>
       <h3>Capture from anywhere</h3>
-      <p>Drag, paste or share photos, PDFs, web pages, videos and text straight into a project.</p>
+      <p>Drag, paste or share photos, PDFs, web pages, videos and text straight into a project, or save them from Safari with a right-click.</p>
     </div>
     <div class="highlight">
       <div class="glyph yellow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><rect x="7" y="8" width="6" height="5" stroke-dasharray="2 2"/></svg></div>
@@ -109,12 +110,12 @@
         <li>Move or copy references to another project by dragging them onto it in the sidebar, notes and markups included.</li>
       </ul>
     </div>
-    <img class="shot cropped" src="assets/screens/aftermarket.png" loading="lazy" decoding="async" width="1419" height="300"
+    <img class="shot cropped" src="assets/screens/aftermarket.png" loading="lazy" decoding="async" width="1600" height="236"
          alt="A project's Aftermarket tab listing FOD covers, an ALQ-131 centre-line pod and LAU rails, each resin at 1:48, with pictures and a status of Considering or In stash.">
   </section>
 
   <!-- Kits -->
-  <section class="wrap feature flip" id="kits">
+  <section class="wrap feature wide" id="kits">
     <div class="feature-text">
       <span class="tag">Kits · New in 1.1 for Mac</span>
       <h2>Know what's in the stash.</h2>
@@ -127,8 +128,8 @@
         <li>Take the box art with your iPhone's camera, straight into the kit.</li>
       </ul>
     </div>
-    <img class="shot" src="assets/screens/kits-placeholder.svg" loading="lazy" decoding="async" width="1400" height="900"
-         alt="Placeholder for a screenshot of the Kits catalogue.">
+    <img class="shot cropped" src="assets/screens/kits.png" loading="lazy" decoding="async" width="1600" height="165"
+         alt="An F-16CJ Wild Weasel project's Kits tab listing Tamiya's 1:48 F-16CJ Block 50 Fighting Falcon, kit 61098, with its box art and a status of WIP.">
   </section>
 
   <!-- Capture -->
@@ -144,12 +145,30 @@
         <li>Select a whole set by dragging a rectangle across the gallery, just like in Finder.</li>
       </ul>
     </div>
-    <img class="shot" src="assets/screens/selection.png" loading="lazy" decoding="async" width="980" height="653"
-         alt="Dragging a selection rectangle across the References gallery to select several tiles: photos, a note and a gear-bay image with five notes.">
+    <img class="shot" src="assets/screens/selection.png" loading="lazy" decoding="async" width="1388" height="588"
+         alt="Dragging a selection rectangle across the References gallery to select ten tiles: an instructions PDF, a gear-bay photo with four notes, a JetPhotos page and several F-16 photos.">
+  </section>
+
+  <!-- Safari extension -->
+  <section class="wrap feature" id="safari">
+    <div class="feature-text">
+      <span class="tag">Safari extension · New in 1.1.1 for Mac</span>
+      <h2>Right-click. Saved.</h2>
+      <p>Turn on BenchBook in Safari's settings, then right-click any page, image or highlighted text and save it to BenchBook from the menu. It goes straight into the project you used last, and a small notice says where it went.</p>
+      <ul class="points">
+        <li>Change your mind? Click <strong>Change…</strong> in the notice to move it to another project, or add tags and a note.</li>
+        <li>Choose the project, tags and note before you save with the BenchBook button in Safari's toolbar.</li>
+        <li>Save a PDF open in Safari as the PDF itself, including from sites you're signed in to.</li>
+        <li>Save a page twice and BenchBook tells you it's already there, instead of adding a copy.</li>
+        <li>The extension talks only to BenchBook on your Mac. Requires Safari 18.4 or later.</li>
+      </ul>
+    </div>
+    <img class="shot" src="assets/screens/safari.png" loading="lazy" decoding="async" width="834" height="560"
+         alt="A Wikipedia page in Safari with the VFA-195 Dambusters squadron badge, and BenchBook's Change where it's saved panel in the corner: Project set to F-18E Dambusters, with Tags and Note fields and Cancel and Save buttons.">
   </section>
 
   <!-- Image notes -->
-  <section class="wrap feature" id="markup">
+  <section class="wrap feature flip" id="markup">
     <div class="feature-text">
       <span class="tag">Image notes</span>
       <h2>Write on the photo, not on a sticky note.</h2>
@@ -161,11 +180,11 @@
       </ul>
     </div>
     <img class="shot" src="assets/screens/image-notes.png" loading="lazy" decoding="async" width="1490" height="934"
-         alt="The image viewer showing an F-16 main gear bay with five numbered boxes drawn on it, and their notes listed in the side panel: chipping, discolouration and a gun metal colour.">
+         alt="The image viewer showing an F-16CJ Wild Weasel with three numbered boxes drawn on it, and their notes listed in the side panel: the HTS pod's left cheek, launch rail weathering and a vent between two decals.">
   </section>
 
   <!-- PDF markup -->
-  <section class="wrap feature flip" id="pdf">
+  <section class="wrap feature" id="pdf">
     <div class="feature-text">
       <span class="tag">PDF markup</span>
       <h2>Mark up the instructions, not a printout.</h2>
@@ -176,8 +195,8 @@
         <li>Your markups sit on top. The original PDF is never edited.</li>
       </ul>
     </div>
-    <img class="shot" src="assets/screens/pdf-markup.png" loading="lazy" decoding="async" width="1379" height="1139"
-         alt="The PDF viewer showing page 2 of F-16CJ kit instructions with page thumbnails, yellow highlights on two assembly steps, a note and a red arrow, and the five numbered markups listed in the side panel.">
+    <img class="shot" src="assets/screens/pdf-markup.png" loading="lazy" decoding="async" width="1095" height="942"
+         alt="Page 2 of Tamiya's F-16CJ instructions in BenchBook's PDF viewer, with highlights on the cockpit and landing-gear steps and on part D6, a yellow note and a red arrow, all listed in the side panel beside the page thumbnails.">
   </section>
 
   <!-- Compare -->
@@ -193,7 +212,7 @@
       </ul>
     </div>
     <img class="shot" src="assets/screens/compare.png" loading="lazy" decoding="async" width="1692" height="913"
-         alt="Two F-16 photos side by side in one window, each zoomed separately with numbered note boxes; the selected image is outlined and its note shows in the side panel.">
+         alt="The Compare window with two F-16CJ photos side by side, each with numbered boxes, and the selected photo's note in the side panel: no demarcation line suggests the two-tone USAF scheme.">
   </section>
 
   <!-- Paints -->
@@ -211,8 +230,8 @@
         <li><a href="#paint-lists">Download ready-made lists</a> for Tamiya, Mr. Hobby, AK Interactive and Vallejo.</li>
       </ul>
     </div>
-    <img class="shot cropped" src="assets/screens/paints.png" loading="lazy" decoding="async" width="980" height="292"
-         alt="An AH-64E project's Paint tab: four AK Interactive and Tamiya paints with swatches, FS and RAL codes and Owned ticks, and a header saying two are still to buy.">
+    <img class="shot cropped" src="assets/screens/paints.png" loading="lazy" decoding="async" width="1600" height="203"
+         alt="An F-16CJ project's Paint tab: two FS 595 colours, 36118 for the upper surfaces and 36270 for the underside, still waiting for a paint, and Tamiya XF-69 NATO Black for the cockpit, ticked as owned.">
   </section>
 
   <!-- Custom mixes -->
@@ -227,8 +246,8 @@
         <li>Give a mix a colour standard, so it's offered for that colour alongside bottled paints.</li>
       </ul>
     </div>
-    <img class="shot" src="assets/screens/mixes-placeholder.svg" loading="lazy" decoding="async" width="1400" height="900"
-         alt="Placeholder for a screenshot of a custom mix and its recipe.">
+    <img class="shot" src="assets/screens/mixes.png" loading="lazy" decoding="async" width="628" height="968"
+         alt="The New Mix sheet over the paint catalogue: a mix called My Navy Gray with a recipe of 1 part AK Interactive Insignia White to 10 parts Dark Ghost Grey, a note that neither paint is owned yet, colour standard FS 595 36320, a swatch and a note.">
   </section>
 
   <!-- Paint lists -->
@@ -299,7 +318,7 @@
   </section>
 
   <!-- Search -->
-  <section class="wrap feature flip" id="search">
+  <section class="wrap feature wide" id="search">
     <div class="feature-text">
       <span class="tag">Search</span>
       <h2>Find that photo you saved six months ago.</h2>
@@ -310,8 +329,8 @@
         <li>Narrow results to a tag as you type.</li>
       </ul>
     </div>
-    <img class="shot" src="assets/screens/search.png" loading="lazy" decoding="async" width="980" height="653"
-         alt="Searching for “discoloration” finds matching box notes on four images across two projects, each listed under its image with the word in bold.">
+    <img class="shot cropped" src="assets/screens/search.png" loading="lazy" decoding="async" width="1600" height="303"
+         alt="Searching for “discoloration” finds matching box notes on two images in two projects, a main gear bay photo and an F-18E photo, each listed under its image with the word in bold.">
   </section>
 
   <!-- Tutorials -->
@@ -437,7 +456,7 @@
       <h2>Made for the Mac, not ported to it.</h2>
       <p>BenchBook is a native app that works the way your Mac does.</p>
       <div class="mac-grid">
-        <div><b>Share menu</b><span>Send pages and images from Safari and other apps straight to a project.</span></div>
+        <div><b>Share menu and Safari</b><span>Send pages and images from any app, or right-click in Safari to save them to a project.</span></div>
         <div><b>Quick Look</b><span>Press Space to preview any PDF, image or document.</span></div>
         <div><b>Keyboard first</b><span>Shortcuts for capturing, zooming, drawing, finding and switching tabs.</span></div>
         <div><b>Light and dark</b><span>Follows your Mac's appearance, with its system controls and fonts.</span></div>

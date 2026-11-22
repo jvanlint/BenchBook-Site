@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>BenchBook</title>
+    <link>https://jvanlint.github.io/BenchBook-Site/appcast.xml</link>
+    <description>Updates for BenchBook for Mac.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.2.0</title>
+      <pubDate>Sun, 22 Nov 2026 22:53:40 +0000</pubDate>
+      <sparkle:version>63</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/jvanlint/BenchBook/releases/tag/v1.2.0</link>
+      <description><![CDATA[
+<h3>What's new</h3>
+<ul>
+<li>Tighten link previews, the capture inbox and restore</li>
+<li>Use the new app icon</li>
+<li>Check for updates with Sparkle</li>
+</ul>
+<h3>Issues fixed</h3>
+<ul>
+<li><a href="https://github.com/jvanlint/BenchBook/issues/10">#10</a> In-app updates</li>
+<li><a href="https://github.com/jvanlint/BenchBook/issues/15">#15</a> Security and sandbox review</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/jvanlint/BenchBook/compare/v1.1.2...v1.2.0">https://github.com/jvanlint/BenchBook/compare/v1.1.2...v1.2.0</a></p>
+      ]]></description>
+      <enclosure url="https://github.com/jvanlint/BenchBook/releases/download/v1.2.0/BenchBook-1.2.0.zip" type="application/octet-stream" sparkle:edSignature="yvwSdCTRiQO4CFlgkJlr2epj1NWWpUa7tGgsR1eoF+XGA7HjIiUnEpyAFt7aZcWAe/BmGfS4hj3P+86Zo69mCQ==" length="7327090"></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: ATu+BHrL3z+Ubg41rxVxc/uVXe2+TmMHkIBJJwsxGhfCVWBLzrqdDwx1LN+Zsye/zkAERK3c0lQxzkKKu05vCQ==
+length: 1876
+-->

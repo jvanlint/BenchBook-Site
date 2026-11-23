@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for BenchBook for Mac.</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.0</title>
+      <pubDate>Mon, 23 Nov 2026 03:36:13 +0000</pubDate>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/jvanlint/BenchBook/releases/tag/v1.3.0</link>
+      <description><![CDATA[
+<h3>What's new</h3>
+<ul>
+<li>Import a paint stash exported from Scalemates</li>
+<li>Update existing paints when re-importing a CSV</li>
+<li>Export and import projects</li>
+</ul>
+<h3>Issues fixed</h3>
+<ul>
+<li><a href="https://github.com/jvanlint/BenchBook/issues/12">#12</a> Export and import projects</li>
+<li><a href="https://github.com/jvanlint/BenchBook/issues/24">#24</a> Update existing paints when re-importing a CSV</li>
+<li><a href="https://github.com/jvanlint/BenchBook/issues/48">#48</a> Import a paint stash exported from Scalemates</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/jvanlint/BenchBook/compare/v1.2.1...v1.3.0">https://github.com/jvanlint/BenchBook/compare/v1.2.1...v1.3.0</a></p>
+      ]]></description>
+      <enclosure url="https://github.com/jvanlint/BenchBook/releases/download/v1.3.0/BenchBook-1.3.0.zip" type="application/octet-stream" sparkle:edSignature="TSog/XHwCdxk6kn3TZzXxhL7jPZjUoN5NrAhgWsky1WRrezNOlEbuen5GQquvQb3k59bRDjIte5Z3RK2xdwxDQ==" length="7780314"></enclosure>
+    </item>
+    <item>
       <title>Version 1.2.1</title>
       <pubDate>Mon, 23 Nov 2026 01:10:27 +0000</pubDate>
       <sparkle:version>66</sparkle:version>
@@ -48,6 +72,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 4r2a8u9EcC7NYCGoaxotYtWN1iWF6how1Qfx26qeqVFpr7bd/XnUSZ6xYhR+5vpif7R5cQqC51EkJpyMJ2d2AA==
-length: 2914
+edSignature: zLPlgRLGP6CfGmJYEipGjXnv3mCbQZk0ShSDTcuXQnKwX9qxbo2gO+iIsgtOunBqppvxpeCjNkXzdzazTSb1DA==
+length: 4357
 -->

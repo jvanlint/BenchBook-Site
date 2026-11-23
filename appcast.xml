@@ -7,6 +7,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>Updates for BenchBook for Mac.</description>
     <language>en</language>
     <item>
+      <title>Version 1.2.1</title>
+      <pubDate>Mon, 23 Nov 2026 01:10:27 +0000</pubDate>
+      <sparkle:version>66</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <link>https://github.com/jvanlint/BenchBook/releases/tag/v1.2.1</link>
+      <description><![CDATA[
+<h3>What's new</h3>
+<ul>
+<li>Add Acrylic Wash, Enamel Wash, Pigment and Marker paint types</li>
+<li>Add a Link column to the Kits catalogue</li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/jvanlint/BenchBook/compare/v1.2.0...v1.2.1">https://github.com/jvanlint/BenchBook/compare/v1.2.0...v1.2.1</a></p>
+      ]]></description>
+      <enclosure url="https://github.com/jvanlint/BenchBook/releases/download/v1.2.1/BenchBook-1.2.1.zip" type="application/octet-stream" sparkle:edSignature="cRJ83MiTPMZ6pw78LMGrPA9MOiyv7/9Ynm/xllvHT0TsiUEBr9ICAZz9a89hSC9HB4lCDqJYmSY3l3ukIW2sAA==" length="7332284"></enclosure>
+    </item>
+    <item>
       <title>Version 1.2.0</title>
       <pubDate>Sun, 22 Nov 2026 22:53:40 +0000</pubDate>
       <sparkle:version>63</sparkle:version>
@@ -31,6 +48,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ATu+BHrL3z+Ubg41rxVxc/uVXe2+TmMHkIBJJwsxGhfCVWBLzrqdDwx1LN+Zsye/zkAERK3c0lQxzkKKu05vCQ==
-length: 1876
+edSignature: 4r2a8u9EcC7NYCGoaxotYtWN1iWF6how1Qfx26qeqVFpr7bd/XnUSZ6xYhR+5vpif7R5cQqC51EkJpyMJ2d2AA==
+length: 2914
 -->

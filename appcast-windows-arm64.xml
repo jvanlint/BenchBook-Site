@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>BenchBook for Windows (arm64)</title>
+    <link>https://jvanlint.github.io/BenchBook-Site/</link>
+    <description>New versions of BenchBook for Windows.</description>
+    <language>en</language>
+    <item>
+      <title>BenchBook 1.4.0-beta.1</title>
+      <description>- Use the Windows update key that matches the release secret
+- Check for updates and install them, as the Mac does</description>
+      <pubDate>Thu, 26 Nov 2026 03:02:33 +00:00</pubDate>
+      <sparkle:version>1.4.0-beta.1</sparkle:version>
+      <sparkle:shortVersionString>1.4.0-beta.1</sparkle:shortVersionString>
+      <enclosure url="https://github.com/jvanlint/BenchBook-Windows/releases/download/v1.4.0-beta.1/BenchBook-1.4.0-beta.1-win-arm64.zip" sparkle:version="1.4.0-beta.1" sparkle:shortVersionString="1.4.0-beta.1" length="101919062" sparkle:os="windows-arm64" type="application/zip" sparkle:criticalUpdate="false" sparkle:signature="E+kRrd87wt3TDQh5fYjWxZKTBQsujAQolsDSs4WF8Hy4eD3zvsEs2EtqGYre7YXbd732QUSTRa00fy4chv9hCg==" />
+    </item>
+  </channel>
+</rss>

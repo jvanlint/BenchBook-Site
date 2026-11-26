@@ -6,12 +6,12 @@
     <description>New versions of BenchBook for Windows.</description>
     <language>en</language>
     <item>
-      <title>BenchBook 1.4.0-beta.2</title>
-      <description>- Keep update feeds byte for byte on the website, and say when a feed is missing</description>
-      <pubDate>Thu, 26 Nov 2026 05:21:04 +00:00</pubDate>
-      <sparkle:version>1.4.0-beta.2</sparkle:version>
-      <sparkle:shortVersionString>1.4.0-beta.2</sparkle:shortVersionString>
-      <enclosure url="https://github.com/jvanlint/BenchBook-Windows/releases/download/v1.4.0-beta.2/BenchBook-1.4.0-beta.2-win-arm64.zip" sparkle:version="1.4.0-beta.2" sparkle:shortVersionString="1.4.0-beta.2" length="101919272" sparkle:os="windows-arm64" type="application/zip" sparkle:criticalUpdate="false" sparkle:signature="7T1re7WB7SduFMlfsA2pO2mDu10hhzd/RT/sGw9NvGJA0d0b6PpbFuB14dF3O+hpwP5vQ/1NIT9HlLSZbjy2AQ==" />
+      <title>BenchBook 1.4.0-beta.3</title>
+      <description>- Show BenchBook's version in Settings › About</description>
+      <pubDate>Thu, 26 Nov 2026 06:05:21 +00:00</pubDate>
+      <sparkle:version>1.4.0-beta.3</sparkle:version>
+      <sparkle:shortVersionString>1.4.0-beta.3</sparkle:shortVersionString>
+      <enclosure url="https://github.com/jvanlint/BenchBook-Windows/releases/download/v1.4.0-beta.3/BenchBook-1.4.0-beta.3-win-arm64.zip" sparkle:version="1.4.0-beta.3" sparkle:shortVersionString="1.4.0-beta.3" length="101919592" sparkle:os="windows-arm64" type="application/zip" sparkle:criticalUpdate="false" sparkle:signature="QDE7P4AKcYChAtgfs/Ynxne7eLZ3mUfK/SFWy+xd9rtekau//nHf+Mhcq59xgmknfFHOa6fk1cpyn5pNeaqsBw==" />
     </item>
   </channel>
 </rss>
